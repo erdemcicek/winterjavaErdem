@@ -2,9 +2,9 @@ package day02scanner;
 
 public class TypeCasting01 {
 	
-	/*
-	 byte < short < int < long < float < double
-	 */
+	
+	// byte < short < int < long < float < double
+	
 
 	public static void main(String[] args) {
 		
