@@ -16,10 +16,8 @@ public class IfStatement04 {
 			System.out.println("This is not a square");
 		scan.close();
 // It can be done also if ( width < 0 || length < 0 ) 
-//						else ( if width == length , else) 	* it is more logical I think 
+//			else ( if width == length , else) 	* it is more logical I think 
 // Java comes from top to bottom. It executes first and third statement at the same time , which doesn't make sense. That's why
 // we need to use 'else if' statement. 
-// sensible = raisonable(fr)   -    sensitive = sensible(fr) 
 	}
-
 }
