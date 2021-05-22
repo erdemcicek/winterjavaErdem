@@ -1,10 +1,8 @@
 package day16multidimarrays;
 
 public class MultiDimArrays02 {
-	/*
-	 	Find the sum of all elements in the multidimensional array
-	 */
 
+	// 	Find the sum of all elements in the multidimensional array
 	public static void main(String[] args) {
 		int arr[][]= {{3,4},{5},{6,8},{2,9}};
 		int i = 0,j,sum=0;
@@ -15,7 +13,5 @@ public class MultiDimArrays02 {
 			i++;
 		}
 		System.out.println(sum);
-
 	}
-
 }
