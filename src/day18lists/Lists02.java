@@ -7,7 +7,7 @@ public class Lists02 {
 	// create a method to delete odd and increase even elements by multiplying 5
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		List<Integer> list = new ArrayList<Integer>();
 		for ( int i = 0 ; i < 7 ; i++) {
 			list.add(i);
@@ -25,10 +25,8 @@ public class Lists02 {
 			else {
 				list.remove(i);
 				i--;  // WOOOW magnificent
-			}
-				
+			}	
 		}
 		System.out.println(list);
 	}
-
 }
