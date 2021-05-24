@@ -12,8 +12,7 @@ public class MapQuestion01 {
 
 	public static void main(String[] args) {
 		
-		System.out.println(getNumOfChar("Hellooo"));
-		
+		System.out.println(getNumOfChar("Hellooo"));	
 	}
 	public static HashMap<String, Integer> getNumOfChar(String str){
 		
@@ -28,7 +27,6 @@ public class MapQuestion01 {
 				map.put(w, map.get(w)+1);
 			}
 		}
-		
 		return map;
 	}
 }
