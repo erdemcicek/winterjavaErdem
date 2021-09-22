@@ -46,13 +46,5 @@ public class TreeMap01 {
 		System.out.println(tm.headMap(13, true)); // {4=Angie Moon, 12=Ali Can, 13=Veli Han} // it made 13 inclusive
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 }
