@@ -1,7 +1,6 @@
 package day35maps;
 
 import java.io.BufferedReader;
-
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -21,9 +20,11 @@ public class ConvertCsvToMap {
 	 */
 	
 	public static void main(String[] args) {
+		
 		System.out.println(convertCsvToMap());
 		
 	}
+	
 	public static Map<String, String> convertCsvToMap(){
 		
 		BufferedReader br;
@@ -50,11 +51,8 @@ public class ConvertCsvToMap {
 			String arr[] = w.split(",");
 			lhm.put(arr[0].trim(), arr[1].trim());
 		}
-		
 //		System.out.println(hm);
 		
 		return lhm;
-		
 	}
-
 }
